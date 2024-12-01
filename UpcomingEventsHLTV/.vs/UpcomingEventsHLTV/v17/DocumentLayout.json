@@ -1,0 +1,107 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\TPU\\5 semester\\\u041A\u0443\u0440\u0441\u0430\u0447\\UpcomingEventsHLTV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC156B5D-A3D2-4BD3-91FD-1716B41000FD}|UpcomingEventsHLTV_App\\UpcomingEventsHLTV_App.csproj|c:\\users\\admin\\desktop\\tpu\\5 semester\\\u043A\u0443\u0440\u0441\u0430\u0447\\upcomingeventshltv\\upcomingeventshltv_app\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC156B5D-A3D2-4BD3-91FD-1716B41000FD}|UpcomingEventsHLTV_App\\UpcomingEventsHLTV_App.csproj|solutionrelative:upcomingeventshltv_app\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC156B5D-A3D2-4BD3-91FD-1716B41000FD}|UpcomingEventsHLTV_App\\UpcomingEventsHLTV_App.csproj|c:\\users\\admin\\desktop\\tpu\\5 semester\\\u043A\u0443\u0440\u0441\u0430\u0447\\upcomingeventshltv\\upcomingeventshltv_app\\word_helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC156B5D-A3D2-4BD3-91FD-1716B41000FD}|UpcomingEventsHLTV_App\\UpcomingEventsHLTV_App.csproj|solutionrelative:upcomingeventshltv_app\\word_helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC156B5D-A3D2-4BD3-91FD-1716B41000FD}|UpcomingEventsHLTV_App\\UpcomingEventsHLTV_App.csproj|c:\\users\\admin\\desktop\\tpu\\5 semester\\\u043A\u0443\u0440\u0441\u0430\u0447\\upcomingeventshltv\\upcomingeventshltv_app\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DC156B5D-A3D2-4BD3-91FD-1716B41000FD}|UpcomingEventsHLTV_App\\UpcomingEventsHLTV_App.csproj|solutionrelative:upcomingeventshltv_app\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC156B5D-A3D2-4BD3-91FD-1716B41000FD}|UpcomingEventsHLTV_App\\UpcomingEventsHLTV_App.csproj|c:\\users\\admin\\desktop\\tpu\\5 semester\\\u043A\u0443\u0440\u0441\u0430\u0447\\upcomingeventshltv\\upcomingeventshltv_app\\mystylesdict.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DC156B5D-A3D2-4BD3-91FD-1716B41000FD}|UpcomingEventsHLTV_App\\UpcomingEventsHLTV_App.csproj|solutionrelative:upcomingeventshltv_app\\mystylesdict.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC156B5D-A3D2-4BD3-91FD-1716B41000FD}|UpcomingEventsHLTV_App\\UpcomingEventsHLTV_App.csproj|c:\\users\\admin\\desktop\\tpu\\5 semester\\\u043A\u0443\u0440\u0441\u0430\u0447\\upcomingeventshltv\\upcomingeventshltv_app\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC156B5D-A3D2-4BD3-91FD-1716B41000FD}|UpcomingEventsHLTV_App\\UpcomingEventsHLTV_App.csproj|solutionrelative:upcomingeventshltv_app\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyStylesDict.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\TPU\\5 semester\\\u041A\u0443\u0440\u0441\u0430\u0447\\UpcomingEventsHLTV\\UpcomingEventsHLTV_App\\MyStylesDict.xaml",
+              "RelativeDocumentMoniker": "UpcomingEventsHLTV_App\\MyStylesDict.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\TPU\\5 semester\\\u041A\u0443\u0440\u0441\u0430\u0447\\UpcomingEventsHLTV\\UpcomingEventsHLTV_App\\MyStylesDict.xaml",
+              "RelativeToolTip": "UpcomingEventsHLTV_App\\MyStylesDict.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-14T13:57:07.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\TPU\\5 semester\\\u041A\u0443\u0440\u0441\u0430\u0447\\UpcomingEventsHLTV\\UpcomingEventsHLTV_App\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "UpcomingEventsHLTV_App\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\TPU\\5 semester\\\u041A\u0443\u0440\u0441\u0430\u0447\\UpcomingEventsHLTV\\UpcomingEventsHLTV_App\\MainWindow.xaml",
+              "RelativeToolTip": "UpcomingEventsHLTV_App\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-14T13:54:27.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Parser.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\TPU\\5 semester\\\u041A\u0443\u0440\u0441\u0430\u0447\\UpcomingEventsHLTV\\UpcomingEventsHLTV_App\\Parser.cs",
+              "RelativeDocumentMoniker": "UpcomingEventsHLTV_App\\Parser.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\TPU\\5 semester\\\u041A\u0443\u0440\u0441\u0430\u0447\\UpcomingEventsHLTV\\UpcomingEventsHLTV_App\\Parser.cs",
+              "RelativeToolTip": "UpcomingEventsHLTV_App\\Parser.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAADwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T08:03:48.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Word_Helper.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\TPU\\5 semester\\\u041A\u0443\u0440\u0441\u0430\u0447\\UpcomingEventsHLTV\\UpcomingEventsHLTV_App\\Word_Helper.cs",
+              "RelativeDocumentMoniker": "UpcomingEventsHLTV_App\\Word_Helper.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\TPU\\5 semester\\\u041A\u0443\u0440\u0441\u0430\u0447\\UpcomingEventsHLTV\\UpcomingEventsHLTV_App\\Word_Helper.cs",
+              "RelativeToolTip": "UpcomingEventsHLTV_App\\Word_Helper.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T08:02:48.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\TPU\\5 semester\\\u041A\u0443\u0440\u0441\u0430\u0447\\UpcomingEventsHLTV\\UpcomingEventsHLTV_App\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "UpcomingEventsHLTV_App\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\TPU\\5 semester\\\u041A\u0443\u0440\u0441\u0430\u0447\\UpcomingEventsHLTV\\UpcomingEventsHLTV_App\\MainWindow.xaml.cs",
+              "RelativeToolTip": "UpcomingEventsHLTV_App\\MainWindow.xaml.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAAAMcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T08:16:32.171Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

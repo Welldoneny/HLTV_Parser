@@ -1,0 +1,39 @@
+﻿<Window x:Class="UpcomingEventsHLTV_App.InfoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UpcomingEventsHLTV_App"
+        mc:Ignorable="d"
+        Title="Information" Height="450" Width="800">
+    <Grid Background="#2d3844">
+        <TextBlock Style="{StaticResource TextStyle}" TextWrapping="Wrap" Padding="10">
+                Hello! Welcome to an application that parse www.hltv.com web-site.
+                There you can find information about upcoming events. This 
+                information is beieng taken from hltv/events page. Also, you can find information 
+                about teams, that attend an event. Otherwise, you can find out about players
+                in this team
+                <LineBreak/>
+                How to use this app!!! <LineBreak/>
+                You can find some buttons and text blocks in the left side of window.
+                You can found out today's date and the date of last data update.
+                <LineBreak/>
+                Button "Show teams" displays information about teams, that attend an
+                event which you choosed (Special label will show you this event)
+                <LineBreak/>
+                Button "Word file" will generate MS WORD file with information about event with you chosed
+                <LineBreak/>
+                Button "Excel file" will generate MS Excel file with information about prize pools
+                <LineBreak/>
+                Button "Update" will parse HLTV web-site for new information
+                <LineBreak/>
+                Button "Clear DB" will remove all items in data base
+                <LineBreak/>
+                Button "Info" shows this window
+                <LineBreak/>
+                Button "Exit" quits from this app
+                <LineBreak/>
+                Enjoy using this app!!!
+        </TextBlock>
+    </Grid>
+</Window>

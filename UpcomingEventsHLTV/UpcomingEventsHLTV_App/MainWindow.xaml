@@ -1,0 +1,142 @@
+﻿<Window x:Class="UpcomingEventsHLTV_App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UpcomingEventsHLTV_App"
+        mc:Ignorable="d"
+        Background="Transparent" WindowStartupLocation="CenterScreen"
+        Title="Upcoming events" Height="650" Width="1020" Loaded="Window_Loaded">
+    <Window.Resources>
+        <Style TargetType="DataGridColumnHeader">
+            <Setter Property="Background" Value="Transparent"/>
+        </Style>
+        <Style TargetType="DataGridCell">
+            
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <!-- Будет 2 колонки, одна для управления, другая для отображения данных -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.3*" />
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <!-- Колонка управления -->
+        <DockPanel Grid.Column="0" Background="#14212b">
+            <!-- Здесь собраны кнопки -->
+            <StackPanel Orientation="Vertical" DockPanel.Dock="Bottom">
+                <!-- Кнопка генерации документа Word по предстоящим турнирам -->
+                <Button Style="{StaticResource BtnStyle}" x:Name="WordBtn" Click="WordBtn_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Images/File.png" Style="{StaticResource IconStyle}"/>
+                        <TextBlock>Word file</TextBlock>
+                    </StackPanel>
+                    <Button.ToolTip>
+                        <ToolTip Style="{StaticResource ToolTipStyle}">Get MS WORD file with info about events</ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <!-- Кнопка генерации экселевского файла-->
+                <Button Style="{StaticResource BtnStyle}" x:Name="ExcelBtn" Click="ExcelBtn_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Images/Excel.png" Style="{StaticResource IconStyle}"/>
+                        <TextBlock>Excel File</TextBlock>
+                    </StackPanel>
+                    <Button.ToolTip>
+                        <ToolTip Style="{StaticResource ToolTipStyle}">Get MS Excel file with info about events</ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <!-- Кнопка обновления информации -->
+                <Button Style="{StaticResource BtnStyle}" Click="UpdateBtnClick" IsEnabled="False">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Images/Refresh.png" Style="{StaticResource IconStyle}"/>
+                        <TextBlock>Update</TextBlock>
+                    </StackPanel>
+                    <Button.ToolTip>
+                        <ToolTip Style="{StaticResource ToolTipStyle}">Get data form HLTV.com</ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <!-- Кнопка очистки данных из БД -->
+                <Button Style="{StaticResource BtnStyle}" Click="ClearBtn_Click" IsEnabled="False">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Images/Clear.png" Style="{StaticResource IconStyle}"/>
+                        <TextBlock>Clear DB</TextBlock>
+                    </StackPanel>
+                    <Button.ToolTip>
+                        <ToolTip Style="{StaticResource ToolTipStyle}">Clear all items in data base</ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <!-- Кнопка получения дополнительной информации -->
+                <Button x:Name="InfoBtn" Style="{StaticResource BtnStyle}" Click="InfoBtn_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Images/Info.png" Style="{StaticResource IconStyle}"/>
+                        <TextBlock>Info</TextBlock>
+                    </StackPanel>
+                    <Button.ToolTip>
+                        <ToolTip Style="{StaticResource ToolTipStyle}">Read information about application</ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <!-- Кнопка выхода из приложения -->
+                <Button Style="{StaticResource BtnStyle}" Click="ExitBtnClick">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Images/Exit.png" Style="{StaticResource IconStyle}"/>
+                        <TextBlock>Exit</TextBlock>
+                    </StackPanel>
+                    <Button.ToolTip>
+                        <ToolTip Style="{StaticResource ToolTipStyle}">Leave the application</ToolTip>
+                    </Button.ToolTip>
+                </Button>
+            </StackPanel>
+            <!-- Здесь собраны текстовые сообщения -->
+            <StackPanel Orientation="Vertical" DockPanel.Dock="Top">
+                <TextBlock Style="{StaticResource TextStyle}">Today is:</TextBlock>
+                <TextBlock x:Name="TodayDateText" Style="{StaticResource TextStyle}"/>
+                <TextBlock Style="{StaticResource TextStyle}">Last update:</TextBlock>
+                <TextBlock x:Name="LastUpdateText" Style="{StaticResource TextStyle}"/>
+                <TextBlock Style="{StaticResource TextStyle}">You choosed:</TextBlock>
+                <TextBlock x:Name="ChoosedEventText" Style="{StaticResource TextStyle}" TextWrapping="Wrap"/>
+                <!-- Кнопка перехода к командам -->
+                <Button Style="{StaticResource BtnStyle}" x:Name="ShowTeamsBtn" Click="ShowTeamsBtn_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Images/Team.png" Style="{StaticResource IconStyle}"/>
+                        <TextBlock>Show teams</TextBlock>
+                    </StackPanel>
+                    <Button.ToolTip>
+                        <ToolTip Style="{StaticResource ToolTipStyle}">Get information about attending teams at the event</ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <!-- Кнопка возвращения назад -->
+                <Button Style="{StaticResource BtnStyle}" x:Name="BackToEventsBtn" Click="BackToEventsBtn_Click" Visibility="Collapsed">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Images/Back.png" Style="{StaticResource IconStyle}"/>
+                        <TextBlock>Back to events</TextBlock>
+                    </StackPanel>
+                    <Button.ToolTip>
+                        <ToolTip Style="{StaticResource ToolTipStyle}">Back to table with events</ToolTip>
+                    </Button.ToolTip>
+                </Button>
+            </StackPanel>
+        </DockPanel>
+        <!-- Колонка с данными -->
+        <ScrollViewer Grid.Column="1" Background="#2d3844" HorizontalScrollBarVisibility="Auto"
+        x:Name="Scroller">
+            <DataGrid x:Name="EventsGrid" AutoGenerateColumns="False" Style="{StaticResource DataGridStyle}"
+                      HeadersVisibility="Column" SelectionChanged="EventsGrid_SelectionChanged" IsReadOnly="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Event" Binding="{Binding Path=Name}" Width="280"/>
+                    <DataGridTextColumn Header="Dates" Binding="{Binding Path=Date}" Width="150"/>
+                    <DataGridTextColumn Header="Location" Binding="{Binding Path=Location}" Width="140"/>
+                    <DataGridTextColumn Header="Prize" Binding="{Binding Path=PrizePool}" Width="75"/>
+                    <DataGridTextColumn Header="Amount of teams" Binding="{Binding Path=TeamAmount}" Width="100"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </ScrollViewer>
+        <DataGrid Grid.Column="1" Visibility="Collapsed" HeadersVisibility="Column"  IsReadOnly="True"
+        AutoGenerateColumns="False" Style="{StaticResource DataGridStyle}" x:Name="TeamsGrid"
+                   Background="#2d3844">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Path=Name}"/>
+                <DataGridTextColumn Header="Rating" Binding="{Binding Path=Rating}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
